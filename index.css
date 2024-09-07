@@ -1,0 +1,135 @@
+body {
+    background-color: #100C08;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    position: relative;
+    color: #fff;
+    padding: 0;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    animation: none;
+}
+.voyagers {
+    padding: 20px;
+    top: -60px;
+    margin: 0;
+    top: -60p;
+    animation: none;
+}
+
+.planet-mercury {
+
+}
+
+.logo {
+    padding: 20px;
+    top: -40px; /* Adjust the position as needed */
+    left: -10px; /* Adjust the position as needed */
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    animation: none; /* No animation for the logo */
+
+}
+
+.header {
+    background-image: url(/images/blackplanet.png);
+    color: white;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: auto;
+    animation: float 6s ease-in-out infinite;
+}
+
+.aliens {
+    left: 0px; /* Adjust the position as needed */
+    top: 100px; /* Adjust the position as needed */
+}
+
+.astronout {
+    right: 10px; /* Adjust the position as needed */
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(-50%) translateX(0);
+    }
+    50% {
+        transform: translateY(-50%) translateX(10px); /* Adjust the float distance as needed */
+    }
+}
+
+.solar-system-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.solar-system-overview h2 {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content h2 {
+    margin: 0;
+    font-weight: 100;
+    flex: 2;
+}
+
+.imagesolar {
+    flex: 1;
+}
+
+.
+  /* initial state */
+
+  /* #outerspace {
+    position: relative;
+    height: 400px;
+    background: #0c0440 url(/images/outerspace.jpg);
+    color: #fff;
+  }
+  div.rocket {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: 3s ease-in;
+  }
+  div.rocket > div {
+    width: 92px;
+    height: 215px;
+    background: url(/images/rocket.gif) no-repeat;
+    transition: 2s ease-in-out;
+  }
+
+  /* hover final state */
+/* 
+  #outerspace:hover > div.rocket {
+    transform: translate(540px,-200px);
+  }
+  #outerspace:hover > div.rocket > div {
+    transform: rotate(70deg);
+  } */ 

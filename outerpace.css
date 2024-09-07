@@ -1,0 +1,29 @@
+  /* initial state */
+
+  #outerspace {
+    position: relative;
+    height: 400px;
+    background: #0c0440 url(/images/outerspace.jpg);
+    color: #fff;
+  }
+  div.rocket {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: 3s ease-in;
+  }
+  div.rocket > div {
+    width: 92px;
+    height: 215px;
+    background: url(/images/rocket.gif) no-repeat;
+    transition: 2s ease-in-out;
+  }
+
+  /* hover final state */
+
+  #outerspace:hover > div.rocket {
+    transform: translate(540px,-200px);
+  }
+  #outerspace:hover > div.rocket > div {
+    transform: rotate(70deg);
+  }
